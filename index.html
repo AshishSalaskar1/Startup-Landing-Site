@@ -1,57 +1,79 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Zenith Softwares</title>
 
-    <link rel="stylesheet" href="css/style.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="fontawesome-free-5.6.3-web/css/all.css" rel="stylesheet"> 
-  </head>
-  <body>
-    <header>
-      <div class="p-1" id="topHeader">
-        <div class="container text-right ">
-          <div class="row">
-            <div class="col-12">
-              <a  class="p-1" href="tel:+(91)9845764587"><i class="fas fa-phone"></i> +(91)9845764587</a>
-              &nbsp;&nbsp;  
-              <a  class="p-1" href="mailto:zenithsw@gmail.com"><i class="fas fa-envelope"></i> zenithsw@gmail.com</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="fontawesome-free-5.6.3-web/css/all.css">
+  <!-- Our Custom CSS style sheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Home - Zenith Softwares</title>
+</head>
+<!-- xs<576 | 576<sm<768 | 768<md<992 | 992<lg<1200 | 1200<xl -->
 
-    <div id="secondHeader">
+<body>
+  <header>
+    <div class="p-1" id="topHeader">
       <div class="container">
-        <div class="navbar-dark bg-dark navbar-expand-md">
-          <div class="navbar-nav">
-            <div class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-            </div>
-            <div class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-            </div>
-            <div class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
-            </div>
-            <div class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-            </div>
-            <div class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
-            </div>
+        <div class="row">
+          <div class="col-12 text-right">
+            <a class="p-1" href="tel:+919090909090"> <i class="fas fa-phone"></i> +(91) 9090909090 </a>
+            <a class="p-1" href="mailto:abc@gmail.com"> <i class="fas fa-envelope"></i> inquiry@zenithgroup.com </a>
           </div>
         </div>
       </div>
     </div>
-    
+    <div id="bottomHeader">
+      <div class="container-fluid">
+        <nav class="navbar navbar-dark navbar-expand-md" style="background-color:#004d80;">
+          <a class="navbar-brand" href="">
+            <img src="imgs/logo_text_white_small.png" width="250px" alt="">
+          </a>
+          <button data-toggle="collapse" data-target="#navbarToggler" type="button" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" href="#">Services</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Web Designing</a>
+                    <a class="dropdown-item" href="#">Web Development</a>
+                    <a class="dropdown-item" href="#">SEO Services</a>
+                    <a class="dropdown-item" href="#">Software Development</a>
+                    <a class="dropdown-item" href="#">Mobile App Development</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Graphic Designing</a>
+                </div>
 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+      </div>
+    </div>
+  </header>
+
+  
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+  <script src="bootstrap/js/popper.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
 </html>
