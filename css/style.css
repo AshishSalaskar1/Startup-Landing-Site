@@ -24,3 +24,9 @@ nav ul li a {
 	font-size: 1.1rem;
 	font-weight: 600;
 }
+
+#logo{
+    height: 40px;
+    padding: 0;
+    width: 120px;
+}
