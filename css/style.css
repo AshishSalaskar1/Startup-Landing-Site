@@ -79,3 +79,23 @@ nav ul li a {
   width: 200px;
   height: 200px;
 }
+
+#getStarted{
+  background-color: #082b50;
+  color: white;
+}
+
+#newsLetter{
+  background-color: #082b50;
+  color: white;
+}
+
+#newsLetter .form-control{
+    border: transparent;
+    border-radius: 20px 0 0 20px;
+}
+
+#newsLetter .btn {
+  border-radius: 0 20px 20px 0;
+}
+
