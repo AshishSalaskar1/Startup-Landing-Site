@@ -5,6 +5,8 @@
 .mycols{
   border: 3px solid red;
 }
+
+
 .mycontainer{
   background-color: aqua;
 }
@@ -21,12 +23,33 @@
   padding-right: 0;
 }
 nav ul li a {
-	font-size: 1.1rem;
+	font-size: 0.95rem;
 	font-weight: 600;
 }
 
 #logo{
-    height: 40px;
+    height: 45px;
     padding: 0;
     width: 120px;
+}
+
+#fullFooter{
+  background-color: #082b50;
+  /* position: absolute;
+  bottom: 0; */
+  
+}
+
+#topFooter{
+  
+  color: white; 
+}
+
+#topFooter a{
+  color: silver;
+}
+
+#btmFoot {
+  background-color: #061e36;
+  color: silver;
 }
