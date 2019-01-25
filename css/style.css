@@ -99,3 +99,11 @@ nav ul li a {
   border-radius: 0 20px 20px 0;
 }
 
+/* Portfolio Page */
+.breadCrumb {
+  background-color: #e9ecef;
+}
+
+.portHero {
+  background-color: #06305a;
+}
